@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const cors_1 = __importDefault(require("cors"));
+require("express-async-errors");
+// import TasksRoutes from './routes/task.routes';
+const task_controller_1 = __importDefault(require("./controllers/task.controller"));
+const PORT = 3001;
+const app = (0, express_1.default)();
+app.use(express_1.default.json());
+app.use((0, cors_1.default)());
+const tasksController = new task_controller_1.default();
+app.get('/tasks', tasksController.getAll);
+app.get('/tasks/:id', tasksController.getById);
+app.post('/tasks/', tasksController.create);
+app.put('/tasks/:id', tasksController.update);
+app.delete('/tasks/:id', tasksController.remove);
+// app.use(TasksRoutes);
+app.listen(PORT, () => console.log("ouvindo na porta " + PORT));
