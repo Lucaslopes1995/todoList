@@ -11,7 +11,7 @@
 
 - `git clone git@github.com:Lucaslopes1995/todoList.git`
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd todo`
+  - `cd todolist`
 - Entre seguida na pasta do repositório de front-end:
   - `cd todo-front`
 
@@ -42,6 +42,7 @@
 ## Observações e usabilidade
 
   - O banco de dados utilizado foi o Mysql, para realizar a iniciação do dataBase e da tabela, basta adicionar a Query abaixo:
+  - 
    -CREATE DATABASE IF NOT EXISTS task_api;
 
 USE task_api;
