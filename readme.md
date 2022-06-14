@@ -30,7 +30,7 @@
 
 4. Instale as dependências do frontend
 
-- Abra outro terminal e a partir da pasta que você clonou (todo-front), realize os seguintes comandos:
+- Abra outro terminal e a partir da pasta que você clonou (todo), realize os seguintes comandos:
 - Entre na pasta frontend
   - `cd todo-front`
   - `npm install`
