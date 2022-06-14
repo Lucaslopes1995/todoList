@@ -12,8 +12,6 @@
 - `git clone git@github.com:Lucaslopes1995/todoList.git`
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd todolist`
-- Entre seguida na pasta do repositório de front-end:
-  - `cd todo-front`
 
 2. Instale as dependências do back
 
