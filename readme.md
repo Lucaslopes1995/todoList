@@ -3,7 +3,7 @@
 
 ## Contexto
  
- Esse é um repositório foi criado como treino de TypeScript, tanto em desenvolvimento Frontend quanto em desenvolvimento Backend,
+ Esse repositório foi criado como treino de TypeScript, tanto em desenvolvimento Frontend quanto em desenvolvimento Backend,
 
 ## Instalação
 
@@ -15,14 +15,14 @@
 - Entre seguida na pasta do repositório de front-end:
   - `cd todo-front`
 
-2. Instale as dependências da api
+2. Instale as dependências do back
 
-- `cd todo-front`
+- `cd todo-back`
 - `npm install`
 
 3. Configure os dados do banco de dados
 
-- `substitua o arquivo ".ENV_EXAMPLE" por um arquivo .env e adicionando os dados de acesso ao seu banco de dados`
+- `renomeio o arquivo ".ENV_EXAMPLE" como .env e adicione no arquivo os dados do seu banco de dados Mysql`
 
 3. Inicialize o servidor
 
